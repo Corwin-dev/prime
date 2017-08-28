@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="UTF-8">
+		<script src="FileSaver.min.js"></script>
+		<script src="prime.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<p id="labels">Index | Root | Square | Count</p>
+		<p id="data"></p>
+		<p id="primes"></p>
+		
+		<button onclick="createNew()">New</button><button onclick="save()">Save</button><button onclick="stop()">Stop</button><input id="load" type="file" onchange="load(event)" /><br>
+	</body>
+</html>

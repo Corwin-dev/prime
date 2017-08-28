@@ -1,0 +1,21 @@
+body, html {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#primes {
+	font-size: 150px;
+}
+
+#data, #labels {
+
+	font-size: 12px;
+}
